@@ -95,7 +95,6 @@ h2{
 }
 #Novidade #Jogo img {
     width: 100%;
-    display: flex;
 }
 #Novidade #Jogo p{
     padding: 10px;
@@ -125,6 +124,7 @@ footer{
     height: 40px;
     width: 40px;
     padding: 20px;
+    cursor: pointer;
 }
 
 #creditos{
