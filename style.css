@@ -233,7 +233,7 @@ h5{
 @media screen and (max-width: 1020px){
     header{
         columns: 2;
-        background-color: white;
+        background-color: #022047;
         height: 100px;
     }
     header img{
