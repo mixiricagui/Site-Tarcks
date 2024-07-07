@@ -17,7 +17,7 @@ function item2(){
 }
 
 function LinckInstagram(){
-    window.open('https://www.instagram.com/mixirica_gui/');
+    window.open('https://www.instagram.com/hammer_village/');
 }
 
 function LinckPlayStory(){
@@ -26,4 +26,9 @@ function LinckPlayStory(){
 
 function LoneWolf(){
     window.open('https://play.google.com/store/apps/details?id=com.Guilherme.TARCKS');
+}
+
+
+function Carrossel()
+{
 }

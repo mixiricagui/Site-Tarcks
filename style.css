@@ -7,6 +7,7 @@
 body{
     background-color: #054AA5;
     font-family: sans-serif;
+
 }
 
 header{
@@ -217,17 +218,24 @@ h5{
     padding-left: 50px;
 }
 
-.Novidades{
-    margin-left: 20%;
-    margin-right: 20%;
+#ariaDeDoação{
+    padding: 30px;
 }
 
-.Novidades img{
+#Jogo{
+    object-fit: cover;
+    height: 50px;
+    width: 500px;
+}
+
+#informacoes{
+    columns: 1;
     width: 80%;
 }
 
-#ariaDeDoação{
-    padding: 30px;
+#imag2
+{
+    width: 20vh;
 }
 
 @media screen and (max-width: 1020px){
@@ -310,7 +318,7 @@ h5{
         color: white;
         border-radius: 10px;
     }
-    #Novidade #Jogo img {
+    #Novidade #Jogo img {  
         width: 100%;
     }
     #Novidade #Jogo p{
@@ -411,7 +419,7 @@ h5{
 
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
     header{
         columns: 2;
         background-color: white;
@@ -482,14 +490,6 @@ h5{
     
     #Novidade{
         columns: 1;
-    }
-    #Novidade #Jogo{
-        margin: 30px;
-        background-color: #022047;
-        width: 270px;
-        height: 550px;
-        color: white;
-        border-radius: 10px;
     }
     #Novidade #Jogo img {
         width: 100%;
