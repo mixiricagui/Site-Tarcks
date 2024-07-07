@@ -466,6 +466,7 @@ h5{
         columns: 2;
         background-color: white;
         height: 60px;
+        width: 100%;
     }
     header img{
         height: 30px;
@@ -481,6 +482,7 @@ h5{
     #destaque{
         background-color: #022047;
         padding-bottom: 5px;
+        width: 100%;
     }
     #destaque img{
         height: 89%;
@@ -556,6 +558,7 @@ h5{
     
     footer{
         background-color: #022047;
+        width: 100%;
     }
     #lincks{
         padding-top: 50px;
