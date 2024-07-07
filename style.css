@@ -233,12 +233,38 @@ h5{
     width: 80%;
 }
 
+#imag1
+{
+    width: 150vh;
+}
+
 #imag2
 {
-    width: 20vh;
+     width:30vh;
+}
+
+#imag3
+{
+        width: 30vh;
 }
 
 @media screen and (max-width: 1020px){
+
+    #imag1
+    {
+        width: 80vh;
+    }
+
+    #imag2
+    {
+     width: 20vh;
+    }
+
+    #imag3
+    {
+        width: 20vh;
+    }
+
     header{
         columns: 2;
         background-color: #022047;
@@ -420,6 +446,22 @@ h5{
 }
 
 @media screen and (max-width: 600px){
+
+    #imag1
+    {
+        width: 60vh;
+    }
+
+    #imag2
+    {
+     width: 20vh;
+    }
+
+    #imag3
+    {
+        width: 20vh;
+    }
+
     header{
         columns: 2;
         background-color: white;
@@ -490,6 +532,15 @@ h5{
     
     #Novidade{
         columns: 1;
+    }
+
+    #novidade #jogo{
+        margin: 30px;
+        background-color: #022047;
+        width: 200px;
+        height: 600px;
+        color: white;
+        border-radius: 10px;
     }
     #Novidade #Jogo img {
         width: 100%;
