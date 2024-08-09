@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #054AA5;
+    background-color: #ffffff;
     font-family: sans-serif;
 
 }
@@ -27,7 +27,7 @@ header h1{
     color: black;
 }
 #destaque{
-    background-color: #022047;
+    background-color: #000000;
     padding-bottom: 20px;
 
 }
@@ -51,19 +51,19 @@ header h1{
     align-items: center;
     padding: 15px;
     padding-left: 20%;
-    color: #952020;
+    color: #000000;
     font-size: 24px;
 }
 
 h2{
     margin: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #jogodestaque #Jogo{
     columns: 1;
     margin: 30px;
-    background-color: #022047;
+    background-color: #000000;
     width: 200px;
     height: 300px;
     border-radius: 10px;
@@ -72,6 +72,7 @@ h2{
 
 #jogodestaque #Jogo img{
     width: 100%;
+    border-radius: 10px 10px 0px 0px;
 }
 #jogodestaque #Jogo h3{
     color: white;
@@ -88,7 +89,7 @@ h2{
 }
 #Novidade #Jogo{
     margin: 30px;
-    background-color: #022047;
+    background-color: #000000;
     width: 300px;
     height: 500px;
     color: white;
@@ -96,6 +97,7 @@ h2{
 }
 #Novidade #Jogo img {
     width: 100%;
+    border-radius: 10px 10px 0px 0px;
 }
 #Novidade #Jogo p{
     padding: 10px;
@@ -113,8 +115,13 @@ a{
     text-decoration: none;
 }
 
+#Pix{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
 footer{
-    background-color: #022047;
+    background-color: #000000;
 }
 #lincks{
     padding-top: 50px;
@@ -141,12 +148,15 @@ footer{
 #dadosJogo{
     padding-bottom: 50px;
     columns: 2;
-    background-color: #022047;
+    background-color: #000000;
 }
 
 #capaJogo{
-    width: 200px;
-    margin: 40px;
+    border-radius: 15px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #H3PaginaJogo{
@@ -154,8 +164,12 @@ footer{
     margin-top: -200px;
     color: white;
     font-size: 20px;
-    margin-left: 200px;
-    padding-top: 40px;
+    margin-left: 100px;
+    padding-top: 90px;
+}
+
+h2{
+    color: #000000;
 }
 
 #JogoButt{
@@ -177,8 +191,8 @@ button {
     width: 40px;
 }
 button:hover {
-    background-color: #054AA5;
-    color: white;
+    background-color: #113f6d;
+    color: rgb(3, 3, 3);
 }
 
 #informacoes{
@@ -191,21 +205,21 @@ button:hover {
     width: 80%;
 }
 #AtualInforma h4{
-    color: white;
+    color: rgb(0, 0, 0);
     padding-top: 20px;
     padding-left: 40px;
     font-size: 20px;
 }
 
 #AtualInforma p{
-    color: white;
+    color: rgb(0, 0, 0);
     padding-top: 20px;
     padding-bottom: 50px;
     padding-left: 50px;
 }
 
 #AtualInforma li{
-    color: white;
+    color: rgb(0, 0, 0);
     padding-left: 50px;
 }
 
@@ -214,7 +228,7 @@ button:hover {
 }
 
 h5{
-    color: white;
+    color: rgb(0, 0, 0);
     padding-left: 50px;
 }
 
@@ -267,7 +281,7 @@ h5{
 
     header{
         columns: 2;
-        background-color: #022047;
+        background-color: #ffffff;
         height: 100px;
     }
     header img{
@@ -282,7 +296,6 @@ h5{
     }
     
     #destaque{
-        background-color: #022047;
         padding-bottom: 10px;
     }
     #destaque img{
@@ -292,9 +305,7 @@ h5{
 
     }
     #destaque #saibaMais{
-        background-color: white;
         font-style: normal;
-        color: black;
         width: 150px;
         height: 30px;
         margin-left: 65%;
@@ -307,19 +318,16 @@ h5{
         align-items: center;
         padding: 8px;
         padding-left: 20%;
-        color: #952020;
         font-size: 18px;
     }
     
     h2{
         margin: 20px;
-        color: white;
         font-size: 20px;
     }
     
     #jogodestaque #Jogo{
         margin: 20px;
-        background-color: #022047;
         width: 150px;
         height: 250px;
         border-radius: 5px;
@@ -329,7 +337,6 @@ h5{
         width: 100%;
     }
     #jogodestaque #Jogo h3{
-        color: white;
         padding-left: 15px;
     }
     
@@ -338,10 +345,8 @@ h5{
     }
     #Novidade #Jogo{
         margin: 30px;
-        background-color: #022047;
         width: 200px;
         height: 400px;
-        color: white;
         border-radius: 10px;
     }
     #Novidade #Jogo img {  
@@ -356,9 +361,6 @@ h5{
         font-size: 17px;
     }
     
-    footer{
-        background-color: #022047;
-    }
     #lincks{
         padding-top: 50px;
         padding-left: 50px;
@@ -373,7 +375,6 @@ h5{
     #creditos{
         padding-top: 50px;
         margin-left: 7%;
-        color: white;
         font-size: 15px;
     }
 
@@ -385,28 +386,29 @@ h5{
     }
     
     #capaJogo{
-        width: 100px;
-        margin: 30px;
+        width: 80px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     
     #H3PaginaJogo{
-        margin-top: -150px;
-        color: white;
+        margin-top: -120px;
         font-size: 15px;
-        margin-left: 110px;
+        margin-left: 90px;
         padding-top: 40px;
     }
     
     #JogoButt{
-        margin-left: 60%;
-        margin-top: 25px;
-        width: 100px;
-        height: 50px;
-        font-size: 13px;
+        margin-left: 50%;
+        margin-top: 55px;
+        width: 90px;
+        height: 45px;
+        font-size: 12px;
     }
     
     button #imgButt{
-        width: 13px;
+        width: 12px;
         padding-right: 5px;
     }
     
@@ -425,21 +427,18 @@ h5{
         width: 80%;
     }
     #AtualInforma h4{
-        color: white;
         padding-top: 20px;
         padding-left: 40px;
         font-size: 20px;
     }
 
     #AtualInforma p{
-        color: white;
         padding-top: 20px;
         padding-bottom: 50px;
         padding-left: 50px;
     }
 
     #AtualInforma li{
-        color: white;
         padding-left: 50px;
     }
 
@@ -464,7 +463,6 @@ h5{
 
     header{
         columns: 2;
-        background-color: white;
         height: 60px;
         width: 100%;
     }
@@ -480,7 +478,6 @@ h5{
     }
     
     #destaque{
-        background-color: #022047;
         padding-bottom: 5px;
         width: 100%;
     }
@@ -491,9 +488,7 @@ h5{
 
     }
     #destaque #saibaMais{
-        background-color: white;
         font-style: normal;
-        color: black;
         width: 100px;
         height: 30px;
         margin-left: 35%;
@@ -506,19 +501,16 @@ h5{
         align-items: center;
         padding: 8px;
         padding-left: 20%;
-        color: #952020;
         font-size: 13px;
     }
     
     h2{
         margin: 20px;
-        color: white;
         font-size: 20px;
     }
     
     #jogodestaque #Jogo{
         margin: 20px;
-        background-color: #022047;
         width: 200px;
         height: 400px;
         border-radius: 5px;
@@ -528,7 +520,6 @@ h5{
         width: 100%;
     }
     #jogodestaque #Jogo h3{
-        color: white;
         padding-left: 15px;
     }
     
@@ -538,10 +529,8 @@ h5{
 
     #novidade #jogo{
         margin: 30px;
-        background-color: #022047;
         width: 200px;
         height: 600px;
-        color: white;
         border-radius: 10px;
     }
     #Novidade #Jogo img {
@@ -557,7 +546,6 @@ h5{
     }
     
     footer{
-        background-color: #022047;
         width: 100%;
     }
     #lincks{
@@ -574,7 +562,6 @@ h5{
     #creditos{
         padding-top: 50px;
         margin-left: 7%;
-        color: white;
         font-size: 15px;
     }
 
@@ -586,13 +573,15 @@ h5{
     }
     
     #capaJogo{
-        width: 100px;
-        margin: 30px;
+        width: 80px;
+        
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     
     #H3PaginaJogo{
-        margin-top: -150px;
-        color: white;
+        margin-top: -120px;
         font-size: 15px;
         margin-left: 110px;
         padding-top: 40px;
