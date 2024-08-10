@@ -17,7 +17,7 @@ function item2(){
 }
 
 function LinckInstagram(){
-    window.open('https://www.instagram.com/hammer_village/');
+    window.open('https://www.instagram.com/tarcksgames/');
 }
 
 function LinckPlayStory(){
