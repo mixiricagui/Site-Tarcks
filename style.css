@@ -296,7 +296,7 @@ h5{
 
 #imag1
 {
-    width: 150vh;
+    width: 70vh;
 }
 
 #imag2
@@ -306,7 +306,11 @@ h5{
 
 #imag3
 {
-        width: 30vh;
+    width: 30vh;
+}
+#imag4
+{
+    width: 120vh;
 }
 
 /*SLIDER TARCKS*/
@@ -358,7 +362,7 @@ h5{
 
     #imag1
     {
-        width: 80vh;
+        width: 30vh;
     }
 
     #imag2
@@ -370,6 +374,11 @@ h5{
     {
         width: 20vh;
     }
+    #imag4
+    {
+        width: 80vh;
+    }
+
 
     body{
         background-color: #ffffff;
@@ -626,7 +635,7 @@ h5{
 
     #imag1
     {
-        width: 50vh;
+        width: 20vh;
     }
 
     #imag2
@@ -637,6 +646,11 @@ h5{
     #imag3
     {
         width: 20vh;
+    }
+
+    #imag4
+    {
+        width: 40vh;
     }
 
     header{
