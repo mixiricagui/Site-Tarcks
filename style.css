@@ -48,7 +48,9 @@ header h1{
 #destaque{
     background-color: #000000;
     padding-bottom: 20px;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #destaque a{
@@ -62,8 +64,8 @@ header h1{
     padding: 10px;
 }
 #saibaMais img{
-    height: 100px;
-    width: 100px;
+    height: 400px;
+    width: 400px;
 }
 
 #destaque #saibaMais{
@@ -71,9 +73,6 @@ header h1{
     color: black;
     width: 200px;
     height: 100px;
-    margin-left: 75%;
-    margin-right: 20%;
-    border-radius: 10px;
 }
 
 #saibaMais p{
@@ -227,10 +226,7 @@ button:hover {
     width: 100%;
 }
 
-#informacoes img{
-    padding: 20px;
-    width: 80%;
-}
+
 #AtualInforma h4{
     color: rgb(0, 0, 0);
     padding-top: 20px;
@@ -271,7 +267,7 @@ h5{
 
 #informacoes{
     columns: 1;
-    width: 80%;
+    width: 70%;
 }
 
 #imag1
@@ -287,6 +283,50 @@ h5{
 #imag3
 {
         width: 30vh;
+}
+
+/*SLIDER TARCKS*/
+.container-slider{
+    display: flex;
+    width: 100%;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 40px;
+}
+
+.container-imagens{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1800px;
+}
+
+.slider{
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.on{
+    opacity: 1;
+}
+
+#prev-button, #next-button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#prev-button img, #next-button img{
+    width: 100%;
+    height: 100%;
 }
 
 @media screen and (max-width: 1020px){
@@ -451,7 +491,6 @@ h5{
 
     #informacoes img{
         padding: 20px;
-        width: 80%;
     }
     #AtualInforma h4{
         padding-top: 20px;
@@ -467,6 +506,49 @@ h5{
 
     #AtualInforma li{
         padding-left: 50px;
+    }
+
+    /*SLIDER TARCKS*/
+    .container-slider{
+        display: flex;
+        width: 80%;
+        min-height: 35vh;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+    }
+
+    .container-imagens{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .slider{
+        opacity: 0;
+        transition: opacity .2s;
+        position: absolute;
+        width: 80%;
+        border-radius: 30px;
+    }
+
+    .on{
+        opacity: 1;
+    }
+
+    #prev-button, #next-button{
+        width: 30px;
+        height: 30px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    #prev-button img, #next-button img{
+        width: 100%;
+        height: 100%;
     }
 
 }
@@ -630,5 +712,49 @@ h5{
     button {
         border-radius: 10px;
         border: none;
+    }
+
+    /*SLIDER TARCKS*/
+    .container-slider{
+        display: flex;
+        width: 60%;
+        min-height: 25vh;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-left: 40px;
+    }
+
+    .container-imagens{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .slider{
+        opacity: 0;
+        transition: opacity .2s;
+        position: absolute;
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    .on{
+        opacity: 1;
+    }
+
+    #prev-button, #next-button{
+        width: 20px;
+        height: 20px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    #prev-button img, #next-button img{
+        width: 100%;
+        height: 100%;
     }
 }
