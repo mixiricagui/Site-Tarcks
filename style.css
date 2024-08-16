@@ -188,6 +188,13 @@ footer{
 
 
 /*PAGINA DOS JOGOS*/
+
+header #logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #dadosJogo{
     padding-bottom: 50px;
     columns: 2;
@@ -501,6 +508,12 @@ h5{
 
 /*PAGINA DOS JOGOS*/
 
+    header #logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     #dadosJogo{
         padding-bottom: 50px;
         columns: 2;
@@ -637,7 +650,6 @@ h5{
         padding: 0 0 0 10px;
     }
     header h1{
-        padding-top: 24px;
         margin-left: -70%;
         font-size: 19px;
     }
@@ -735,6 +747,12 @@ h5{
     }
 
 /*PAGINA DOS JOGOS*/
+
+    header #logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
     #dadosJogo{
         padding-bottom: 50px;
