@@ -641,7 +641,10 @@ h5{
         margin-left: -70%;
         font-size: 19px;
     }
-    
+    header #ajuda{
+        font-size: 10px;
+    }
+
     #destaque{
         width: 100%;
         max-height: 20vh;
